@@ -1,0 +1,19 @@
+{
+	"name": "db_REST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "REST_API",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "?offset=(offset)",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
