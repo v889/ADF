@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfproprac"
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"sqldatabase_password": {
+			"value": ""
+		},
+		"REST_API_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://adfprojectstorageprac.dfs.core.windows.net/"
+		},
+		"sqldatabase_properties_typeProperties_server": {
+			"value": "ddfserver.database.windows.net"
+		},
+		"sqldatabase_properties_typeProperties_database": {
+			"value": "adfdatabase"
+		},
+		"sqldatabase_properties_typeProperties_userName": {
+			"value": "vishadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
