@@ -1,0 +1,9 @@
+{
+	"name": "adfrevisionvishal",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "54efd6ed-f9b2-4541-9a1c-c010b2560c08",
+		"tenantId": "49836a05-fa4f-4691-859a-37d8735491ed"
+	}
+}

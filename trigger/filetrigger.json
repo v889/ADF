@@ -1,0 +1,25 @@
+{
+	"name": "filetrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "filemigration",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-04-19T09:14:00",
+				"endTime": "2026-04-20T09:14:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
